@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(253, 255, 233);
+}
+
+.kim-header {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 54px;
+    font-family: serif;
+    
+}
+
+.kim-body {
+    font-size: 24px;
+    word-spacing: 2.5px;
+    line-height: 1.5;
+}
+
+.newyork {
+    text-decoration: underline
+}
+
+.kim-picture {
+    display: block;
+    float:left;
+    text-align: center;
+    font-size: 24px;
+    column-count: 2;
+    margin: 15px;
+}
+
+.pizza-header {
+    text-align: center;
+    font-size: 54px;
+    text-decoration: underline;
+    font-family: serif;
+}
+
+.pizza-picture {
+    display: block;
+    float:left;
+    margin: 15px;
+    text-align: center;
+    font-size: 24px;
+    column-count: 2;
+}
+
+.pizza-body1 {
+    font-size: 24px;
+    margin: 15px;
+    line-height: 1.5
+}
+
+
+.dude {
+    color: blue;
+    text-decoration: underline;
+}
+
+.tempe {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.adventuretime {
+    
+}
