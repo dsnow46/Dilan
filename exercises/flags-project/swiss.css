@@ -1,0 +1,24 @@
+.flag {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    position: relative;  
+}
+
+.bars {
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bar1 {
+    height: 60%;
+    width: 15%;
+}
+
+.bar2 {
+    height: 15%;
+    width: 60%;
+}

@@ -1,0 +1,11 @@
+.flag {
+    width: 500px;
+    height: 500px;
+    background-color: dodgerblue;
+    position: relative;
+}
+
+.bars {
+    position: absolute;
+    background-color: yellow;
+}

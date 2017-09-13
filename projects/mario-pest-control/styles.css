@@ -1,0 +1,86 @@
+
+ html { 
+/*
+    background:url(https://s-media-cache-ak0.pinimg.com/564x/c5/0e/0a/c50e0a205f5d839a09c2239e45dee376.jpg);
+    background-size: cover;
+*/
+    
+
+}
+
+
+.header {
+    font-size: 72px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: black;    
+}
+.footer1 {
+    font-size: 12px;    
+    font-family: 'Abel', sans-serif;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    display: inline-block;
+}
+.footer2 {
+    font-size: 12px;    
+    font-family: 'Abel', sans-serif;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    text-align: center;
+    display: inline-block;
+
+}
+.footer3 {
+    font-size: 12px;    
+    font-family: 'Abel', sans-serif;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.goomba {
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+    color: black;
+
+}
+.coin {
+    height: auto;
+    width: 5%;
+}
+.coin1 {
+    height: auto;
+    width: 2.5%;
+}
+
+.goomba1 {
+/*    float: left;*/
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline-block;
+}
+.bob-bomb {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: inline-block;
+
+}
+.cheep {
+    float: right;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
