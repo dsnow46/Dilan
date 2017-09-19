@@ -1,20 +1,11 @@
 
- html { 
-/*
-    background:url(https://s-media-cache-ak0.pinimg.com/564x/c5/0e/0a/c50e0a205f5d839a09c2239e45dee376.jpg);
-    background-size: cover;
-*/
-    
-
-}
-
 
 .header {
     font-size: 72px;
     font-family: 'Abel', sans-serif;
     text-align: center;
     text-decoration: underline;
-    color: black;    
+    color: red;    
 }
 .footer1 {
     font-size: 12px;    
@@ -65,7 +56,6 @@
 }
 
 .goomba1 {
-/*    float: left;*/
     padding-top: 15px;
     padding-right: 15px;
     padding-left: 15px;
@@ -83,4 +73,11 @@
     padding-top: 15px;
     padding-right: 15px;
     padding-left: 15px;
+}
+.owed {
+    font-family:'Inconsolata', monospace;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 25px;
+    
 }

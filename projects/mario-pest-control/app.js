@@ -1,11 +1,3 @@
-//var cheepTotal = cheepCount * cheepPrice;
-// var bobTotal = bobCount * bobPrice;
-// var goombaTotal = goombaCount * goombaPrice;
-//
-//var goombaCount = parseInt(document.getElementById("goomba-count").value);
-//var bobCount = parseInt(document.getElementById("bob-count").value);
-//var bobCount = parseInt(document.getElementById("bob-count").value);
-
 
 var goombaPrice = parseInt(document.getElementById("goomba-price").innerHTML);
 
@@ -40,15 +32,12 @@ document.getElementById("cheep-count").addEventListener("input", function cheepc
     document.getElementById("cheep-total").innerHTML = cheepTotal
 });
 
-//document.getElementById("total").addEventListener(function (){
-//    var overallTotal1 = parseInt(document.getElementById"cheep-count").value);
-//    var overallTotal2 = parseInt(document.getElementById"bob-count").value);
-//    var overallTotal3 = parseInt(document.getElementById"goomba-count").value);
-//    
-//    var total = overallTotal1 + overallTotal2 +overallTotal3;
-//    
-//    document.getElementById("cheep-total").innerHTML = total;
-//    
-//})
-//
 
+document.getElementById("button").addEventListener("click", function () {
+    var cheepCount = document.getElementById("cheep-total").innerHTML;
+    var bobCount = document.getElementById("bob-total").innerHTML;
+    var goombaCount = document.getElementById("goomba-total").innerHTML;
+    
+var total = parseInt(~~cheepCount) + parseInt(~~bobCount) + parseInt(~~goombaCount);
+    document.getElementById("total").innerHTML = total  
+});

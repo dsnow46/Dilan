@@ -21,17 +21,7 @@
 //console.log(powerRangers);
 
 //
-var powerRangers = ["jason", "kimberly", "billy", "kimberly", "trini", "zach", "kimberly"];
 
-var kim = [];
-
-for (var i = 0; i < powerRangers.length; i++) {
-    if (powerRangers[i] === "kimberly") {
-        kim.push(i);
-    }
-}
-
-console.log(kim);
 
 //============================================================================================================9/8/17
 //============================================================================================================
@@ -47,14 +37,14 @@ console.log(kim);
 //console.log(sum);
 
 
-var myArray = [ 9, 2, 8, 1902];
-var biggestSum = 0;
-
-for (var i = 0; i < myArray.length; i++){
-    biggestSum = myArray[i];
-}
-
-console.log(biggestSum);
+//var myArray = [ 9, 2, 8, 1902];
+//var biggestSum = 0;
+//
+//for (var i = 0; i < myArray.length; i++){
+//    biggestSum = myArray[i];
+//}
+//
+//console.log(biggestSum);
 
 //function isEven(34) {
 //    if (34 % 2 === 0)
@@ -92,4 +82,76 @@ console.log(biggestSum);
 //    console.log(ham[i]);
 //}
 
+//var string = Math.random().toString(36).slice(-8);
+//
+//
+//
+//console.log(string);
+
+//function pass(num) {
+//  var text = "";
+//  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
+//
+//  for (var i = 0; i < num; i++)
+//    text += possible.charAt(Math.floor(Math.random() * possible.length));
+//
+//  return text;
+//}
+//
+//console.log(pass(8));
+
+
+
+//function myString (str, letter) {
+//    for (var i = 0; i < str.length; i++)
+//        if (letter === str[i]) {
+//            console.log("found letter")
+//            return;
+//        } else {
+//            console.log("didnt find")
+//            return;
+//        }
+//            
+//        
+//}
+//
+//myString("heyeheyeheyehyehey", "h")
+
+
+//***********USING forEach ON AN ARRAY TO LOOP THROUGH EVERY ITEM IN THE ARRAY*********
+//var cars = ["truck", "van", "sedan"];
+//
+//cars.forEach(function(car){
+//    console.log(car + " goes vroom!");
+//});
+
+
+var cars = [  
+    {make: "Ford", model: "E150", price: 10000, year: 2010},
+    {make: "Chevy", model: "Camaro", price: 20010, year: 2001},
+    {make: "Toyota", model: "Tacoma", price: 30900, year: 2006},
+    {make: "Ford", model: "Explorer", price: 9000, year: 2003},
+    {make: "Ford", model: "F250", price: 2400, year: 2015},
+];
+//USING FILTER() TO MAKE A SMIPLER IF STATEMENT******************
+//var a = cars.filter(function(car){
+//    return car.year > 2005;
+//});
+//
+//console.log(a);
+//USING FIND() TO MAKE A SIMPLER IF STATEMENT TO FIND THE CAR MODEL****************
+//var a = cars.find(function(car){
+//    return car.model === "E150";
+//});
+//console.log(a);
+//USING SOME() & EVERY() AS A TRUE/FALSE STATEMENT ON EVERY MODEL IN THE CARS ARRAY**************
+//var a = cars.some(function(car){
+//    return car.model === "E150";
+//});
+//console.log(a);
+
+//var a = cars.every(function(car){
+//    return car.model != "E150";
+//});
+//console.log(a);
 
