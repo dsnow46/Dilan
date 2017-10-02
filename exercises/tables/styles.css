@@ -1,0 +1,9 @@
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    font-size: 20px;
+}

@@ -1,0 +1,58 @@
+{
+    "appetizers": [{
+            "name": "Nachos",
+            "ingredients": ["chips", "cheese", "black beans", "tomato", "sour cream", "guac"],
+            "description": "The best damn nachos west of the Mississippi",
+        },
+        {
+            "name": "Chicken Noodle Soup",
+            "ingredients": ["chicken", "noodles", "carrots", "chicken broth"],
+            "description": "Mmmmm Mmmmm good."
+        }
+                  ],
+    "cold sadnwiches": [{
+            "name": "Turkey Bacon Avacado",
+            "ingredients": ["turkey", "bacon", "avacado", "lettuce", "tomato"],
+            "description": "Thats a good sandwich right there"
+        },
+        {
+            "name": "The Club",
+            "ingredients": ["turkey", "bacon", "ham", "red onion", "lettuce", "tomato"],
+            "description": "no membership needed for this club"
+        }
+
+                       ],
+    "hot sadnwiches": [{
+            "name": "French Dip",
+            "ingredients": ["Rosted beef", "Sourdough bread", "Au jus sauce"],
+            "description": "You'll want to dip more than just the tip"
+        },
+        {
+            "name": "Ruben",
+            "ingredients": ["pastrami", "rye bread", "saurkraut"],
+            "description": "Niiiiiice..."
+        }
+                      ],
+    "desserts": [{
+            "name": "Raspberry Pie",
+            "ingredients": ["Raspberries", "Pie crust"],
+            "description": "yummy pie"
+        },
+        {
+            "name": "Ice Cream",
+            "ingredients": ["vanilla", "chocolate", "strawberry"],
+            "description": "Pick one flavor or mix em all up!"
+        }
+                ],
+    "drinks": [{
+            "name": "whiksey sour",
+            "ingredients": ["whiskey", "egg whites", "bitters", "orange slice"],
+            "description": "like a New York sour but a little different?"
+        }, 
+        {
+            "name": "White Russian",
+            "ingredients": ["vodka", "milk", "bailey", "kaluah"],
+            "description": "Just the dude drinks"
+        }
+              ]
+}

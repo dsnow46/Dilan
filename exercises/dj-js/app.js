@@ -21,13 +21,16 @@
 //}
 //hello(myArray);
 
-        
-var myArray = [100, 101, 102, 1898, 103, 104, 99,]
-var biggestNum = 0;
+//        
+//var myArray = [100, 101, 102, 1898, 103, 104, 99,]
+//var biggestNum = 0;
+//
+//for(var i = 0; i < myArray.length; i++){
+//    if(myArray[i] > biggestNum){
+//        biggestNum = myArray[i];
+//    }
+//}
+//console.log(biggestNum);
 
-for(var i = 0; i < myArray.length; i++){
-    if(myArray[i] > biggestNum){
-        biggestNum = myArray[i];
-    }
-}
-console.log(biggestNum);
+ondblclick=document.addEventListener("boxy").style.color = "red";
+

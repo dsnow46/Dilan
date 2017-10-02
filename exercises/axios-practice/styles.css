@@ -1,0 +1,34 @@
+.topleft {
+    background-color: ;
+    height: 125px;
+}
+.topright {
+    background-color: ;
+    height: 125px;
+}
+.add-todo {
+    height: 50px;
+    background-color: greenyellow;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.input-todo {
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.items-added {
+    background-color: ;
+    height: 700px;
+    width: 100%;
+    border-color: deepskyblue;
+    border-style: solid;
+    border-width: 5px;
+    font-size: 2em;
+}

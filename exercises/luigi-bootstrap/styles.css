@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "mario";
+    src: url("assets/SuperMario256.ttf") format("ttf");
+}
+
+body {
+    font-family: "mario";
+}
+
+.top {
+    background-color: yellow;
+    height: 45px;
+}
+
+.top01 {
+    content: "LUIGI";
+    font-family: "mario";
+}
+
+.top1 {
+    background-color: red;
+    height: 200px;
+}
+
+.top101 {
+    background-color: red;
+    height: 150px;
+    padding-left: 40%;
+}
+
+.bottom {
+    background-color: yellow
+}
