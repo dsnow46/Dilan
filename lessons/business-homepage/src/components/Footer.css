@@ -1,0 +1,33 @@
+#Footer {
+  width: 99%;
+  background: #1a1a1a;
+  top: 80%;
+  position: fixed;
+}
+
+#Footer ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+#Footer li {
+  text-align: center;
+}
+
+#Footer ul li {
+  color: #ee3646;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: sticky;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}

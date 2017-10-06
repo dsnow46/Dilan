@@ -1,0 +1,15 @@
+.container {
+  display: inline-block;
+  border-style: solid;
+  margin-left: 35px;
+  margin-top: 25px;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+img {
+  height:300px;
+  width: 300px;
+  align-content: center;
+}
