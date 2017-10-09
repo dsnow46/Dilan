@@ -1,0 +1,80 @@
+[
+  {
+    "place": "Meridian, Idaho",
+    "price": "$40",
+    "timeToGo": "Spring",
+    "image": "http://www.iranpoliticsclub.net/founder/near-death2/images/American-River%2037%20Rafting-Crash.jpg"
+  },
+  {
+    "place": "Cancun",
+    "price": "$900",
+    "timeToGo": "Winter",
+    "image": "http://www.cancunwhaleshark.com/images/whale-sharks-2.jpg"
+  },
+  {
+    "place": "China",
+    "price": "$1200",
+    "timeToGo": "Fall",
+    "image": "http://www.thatsmags.com/image/view/201610/great-wall-autumn-leaves1.jpg"
+  },
+  {
+    "place": "Russia",
+    "price": "$1100",
+    "timeToGo": "Summer",
+    "image": "https://fthmb.tqn.com/QDDV90-12_1B8CthhrUCQYsviNg=/960x0/filters:no_upscale()/GettyImages-531733757-5948a0cb5f9b58d58a7ba949.jpg"
+  },
+  {
+    "place": "Lebanon",
+    "price": "$400",
+    "timeToGo": "Spring",
+    "image":"http://rotaracteurope.eu/wp-content/uploads/2016/06/Stunning-Pictures-of-Our-Lady-of-Lebanon-3.jpg"
+  },
+  {
+    "place": "Medellin",
+    "price": "$500",
+    "timeToGo": "Summer",
+    "image": "http://www.colombianlifestyle.com/wp-content/uploads/2017/02/museo-de-antioquia-medellin-colombia-6.jpg"
+  },
+  {
+    "place": "Jordan",
+    "price": "$1300",
+    "timeToGo": "Winter",
+    "image": "http://www.nationalgeographic.com/content/dam/travel/2016-digital/jordan/world-heritage/petra-world-heritage-jordan.jpg"
+  },
+  {
+    "place": "Baja",
+    "price": "$400",
+    "timeToGo": "Summer",
+    "image": "http://www.bajainsider.com/sites/default/files/styles/node-detail/public/field/media/balandra_0.jpg?itok=CzPDQeue"
+  },
+  {
+    "place": "Kiev",
+    "price": "$1300",
+    "timeToGo": "Summer",
+    "image": "https://www.momondo.com/inspiration/wp-content/uploads/2017/03/Mother_Motherland_things_to_do_in_kiev-1.jpg"
+  },
+  {
+    "place": "Krakow",
+    "price": "$1500",
+    "timeToGo": "Spring",
+    "image": "http://www.getmetravelled.com/wp-content/uploads/2015/10/Krakow-2.jpg"
+  },
+  {
+    "place": "Morocco",
+    "price": "$1200",
+    "timeToGo": "Fall",
+    "image": "https://www.intrepidtravel.com/sites/intrepid/files/styles/low-quality/public/elements/product/hero/morocco_fes_tanneries.jpg"
+  },
+  {
+    "place": "Cambodia",
+    "price": "$1000",
+    "timeToGo": "Spring",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Buddhist_monks_in_front_of_the_Angkor_Wat.jpg/600px-Buddhist_monks_in_front_of_the_Angkor_Wat.jpg"
+  },
+  {
+    "place": "Brisbane",
+    "price": "$1500",
+    "timeToGo": "Summer",
+    "image": "http://www.novotelbrisbane.com.au/d/brisbane/images/sectionBox_1.jpg?1486362426"
+  }
+]

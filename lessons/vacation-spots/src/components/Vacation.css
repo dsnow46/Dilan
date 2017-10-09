@@ -1,0 +1,38 @@
+@font-face {
+  src: url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+  border-style: ridge;
+  display: inline-block;
+  text-align: center;
+  margin-left: 35px;
+  margin-bottom: 25px;
+  color: white;
+  background-color: black;
+  box-shadow: -10px 0 5px black;
+}
+
+.place{
+  font-size: 2.5em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: lime;
+}
+
+.price {
+  font-size: 24px;
+  background-color: lime;
+  color: black;
+}
+
+.timeToGo {
+  font-size: 24px;
+  background-color: lime;
+  color: black;
+}
+
+.pictures {
+  height: 400px;
+  width: 400px;
+}
