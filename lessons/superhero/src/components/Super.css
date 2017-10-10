@@ -5,14 +5,15 @@
   display: inline-block;
   margin-left: 400px;
   margin-top: 50px;
+  background-color: black;
 }
 
 .picture {
   height: 500px;
   width: 500px;
-  border-radius: 250px;
 }
 
 .text {
   text-align: center;
+  color: red;
 }
