@@ -64,16 +64,28 @@
 var chai = require("chai");
 var assert = chai.assert;
 
-function isPlaindrome(str) {
-    return str.toLowerCase().split("").reverse().join("").replace(/\W/g, "") === str.toLowerCase().replace(/\W/g, "");
+//function isPlaindrome(str) {
+//    return str.toLowerCase().split("").reverse().join("").replace(/\W/g, "") === str.toLowerCase().replace(/\W/g, "");
+//}
+//
+//
+//describe('Checks Palindrome', function(){
+//    it("should have the same chars forward and back", function() {
+//    assert.equal(isPlaindrome("Star Rats"), true)
+//    });
+//    it("should have the same chars forward and back", function() {
+//    assert.equal(isPlaindrome("A man, a plan, a canal panama"), true)
+//    });
+//})
+
+function parentheses(str){
+    return str.includes("(())");
 }
 
-
-describe('Checks Palindrome', function(){
-    it("should have the same chars forward and back", function() {
-    assert.equal(isPlaindrome("Star Rats"), true)
-    });
-    it("should have the same chars forward and back", function() {
-    assert.equal(isPlaindrome("A man, a plan, a canal panama"), true)
-    });
+describe("it should contain two open and close parentheses", function() {
+    it("should work", function() {
+        assert.isTrue(parentheses("((()"));
+        assert.isTrue(parentheses("()()"));
+        assert.isTrue(parentheses("(())"));
+    })
 })

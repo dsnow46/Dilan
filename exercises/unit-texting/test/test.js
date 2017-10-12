@@ -1,9 +1,9 @@
 var chai = require("chai");
 var assert = chai.assert;
 
-var calculator = require("../lastnums.js");
+var calculator = require("./calc.js");
 
-//xdescribe("A calculator", function() {
+//describe("A calculator", function() {
 //    
 //    it("should add two numbers!", function() {
 //        assert.equal(calculator.add(1, 1), 2);
@@ -46,9 +46,29 @@ var calculator = require("../lastnums.js");
 //need to check if string has four decimal numbers not exceedeing 255
 //
 
-describe("it should be longer than 3", function () {
-    it("should work", function() {
-        assert.equals(firstThree("hah", 3)"hahhahhah");
-    })
-}) 
+//describe("it should be longer than 3", function () {
+//    it("should work", function() {
+//        assert.equals(firstThree("hah", 3)"hahhahhah");
+//    })
+//}) 
 
+
+describe("it should contain two open and close parentheses", function() {
+    it("should work", function() {
+        assert.isFalse(calculator.parentheses("((()"));
+    })
+})
+
+
+describe("it should contain two open and close parentheses", function() {
+    it("should work", function() {
+        assert.isTrue(calculator.parentheses("()()"));
+        assert.isTrue(calculator.parentheses("(())"));
+    })
+})
+
+describe("it should contain two open and close parentheses", function() {
+    it("should work", function() {
+        assert.isTrue(calculator.parentheses("(())"));
+    })
+})

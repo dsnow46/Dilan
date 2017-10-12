@@ -23,6 +23,20 @@
 //    }
 //}
 //
+function parentheses(str) {
+   if(str.indexOf(0) === "("){
+       str === true;
+   }else if(str.indexOf(-1) === ")"){
+       str === true;
+   }else {
+       return false;
+   }
+}
+
+module.exports = {
+    parentheses: parentheses,
+}
+
 //
 //
 //module.exports = {
@@ -33,10 +47,12 @@
 //    validIp: validIp,
 //};
 
-function firstThree(str, n){
-  let newString = str.slice(0, 3);
-    return newString.repeat(n)
-}
+//function firstThree(str, n){
+//  let newString = str.slice(0, 3);
+//    return newString.repeat(n)
+//}
+//
+//
+//console.log(firstThree("hello", 7));
 
 
-console.log(firstThree("hello", 7));
