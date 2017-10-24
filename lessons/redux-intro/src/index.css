@@ -1,0 +1,10 @@
+#root{
+  height: 100vh;
+}
+
+.button{
+  width: auto;
+  height: 25px;
+  font-size: auto;
+  float: right;
+}

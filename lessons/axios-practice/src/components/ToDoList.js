@@ -3,30 +3,38 @@ import ToDoComponent from "./ToDoComponent";
 import axios from "axios";
 
 class ToDoList extends React.Component {
-  constructor(){
+  constrctor() {
     super();
     this.state = {
-      TodoList: []
+      todo: [],
+      newTodo: {
+        title: "",
+        description: ""
+      }
     }
+    //bind here
   }
 
   componentDidMount(){
-    axios.get('https://api.vschool.io/nonnie/todo').then((response) => {
-      this.setState({
-        TodoList: response.data
-      })
-    })
+
+  }
+
+  postTodo(){
+
+  }
+
+  deleteTodo(id){
+
+  }
+
+  handleChange(event){
+
   }
 
   render(){
-    return this.state.TodoList.map((todo) => {
-      return (
-        <ToDoComponent
-              description={todo.description}
-              title={todo.title}
-              />
-        )
-    })
+    //divs n shit
   }
 }
+
+
 export default ToDoList;

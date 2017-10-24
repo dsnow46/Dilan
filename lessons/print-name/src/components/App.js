@@ -13,7 +13,7 @@ class App extends React.Component {
   monkeyClick(){
     this.setState(prevState => {
       return {
-        [...prevState.monkey]
+        ...prevState.monkey
       }
     })
   }
